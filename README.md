@@ -31,14 +31,40 @@
 會將檔案上傳到本地的 C:\doc 資料夾中
 
 Post
+
 localhost:8080/api/documents/upload
 
 ![image](https://user-images.githubusercontent.com/27859973/225179024-3a510da4-3e03-4226-b929-2edab5637995.png)
+
+![image](https://user-images.githubusercontent.com/27859973/225180625-e7b90a46-6729-479e-baa8-527d59e76077.png)
+
+{
+    "document": {
+        "id": 8,
+        "name": "java 中级面试.docx",
+        "number": "5a8ade1120230315092758489.docx",
+        "version": 0,
+        "path": "C:\\doc\\5a8ade1120230315092758489.docx",
+        "uploadDate": "2023-03-15T09:27:58.4893824"
+    },
+    "message": "上傳檔案成功",
+    "status": 200
+}
 
 ### 下載
 
 根據文件編碼來讓使用者下載文件
 
+GetMapping
+
+localhost:8080/api/documents/5a8ade1120230315092758489.docx](http://localhost:8080/api/documents/download/5a8ade1120230315092758489.docx
+
+僅示意
+{
+"base64": "UEsDBBQABgAIAAAAIQAyAAAAAMAAwAAQMAAMZEAAAAAA==",
+"message": "該文件存在",
+"status": 200
+}
 
 
 ## 前置作業
@@ -55,6 +81,5 @@ spring.datasource.password=12111211
 建資料庫就好，不需要建立表，表會自動產生
 
 
-## 使用順序
 
 
