@@ -59,7 +59,7 @@ localhost:8080/api/documents/upload
 
 http://localhost:8080/api/documents/
 
-‵‵‵
+‵‵‵yaml
 [
 {
 "id": 1,
