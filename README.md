@@ -59,40 +59,12 @@ localhost:8080/api/documents/upload
 
 http://localhost:8080/api/documents/
 
+如此一來你便可以得到類似下面的json字串，裡面有你上傳的文件的檔案名稱和上傳時間以及版本，這樣你就可以得到文件的number
+
+請注意，文件的number一定是unique的
+
 ```json
 [
-{
-"id": 1,
-"name": "查詢 #2.sql",
-"number": "asfdsaf",
-"version": 1,
-"path": "C:\\doc\\查詢 #2.sql",
-"uploadDate": "2023-03-14T21:49:41.882645"
-},
-{
-"id": 2,
-"name": "查詢 #2.sql",
-"number": "asfdsaf",
-"version": 2,
-"path": "C:\\doc\\查詢 #2.sql",
-"uploadDate": "2023-03-14T21:49:42.9688"
-},
-{
-"id": 3,
-"name": "查詢 #2.sql",
-"number": "asfdsaf",
-"version": 3,
-"path": "C:\\doc\\查詢 #2.sql",
-"uploadDate": "2023-03-14T21:49:43.850266"
-},
-{
-"id": 4,
-"name": "查詢 #2.sql",
-"number": "9c985e2e20230314235400568.sql",
-"version": 4,
-"path": "C:\\doc\\9c985e2e20230314235400568.sql",
-"uploadDate": "2023-03-14T23:54:00.568692"
-},
 {
 "id": 5,
 "name": "fb230307222500.pdf",
@@ -130,7 +102,7 @@ http://localhost:8080/api/documents/
 
 ### 下載
 
-根據文件編碼來讓使用者下載文件
+根據文件編碼number來讓使用者下載文件
 
 GetMapping
 
