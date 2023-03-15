@@ -59,74 +59,9 @@ localhost:8080/api/documents/upload
 
 http://localhost:8080/api/documents/
 
-‵‵‵yaml{
-[
-{
-"id": 1,
-"name": "查詢 #2.sql",
-"number": "asfdsaf",
-"version": 1,
-"path": "C:\\doc\\查詢 #2.sql",
-"uploadDate": "2023-03-14T21:49:41.882645"
-},
-{
-"id": 2,
-"name": "查詢 #2.sql",
-"number": "asfdsaf",
-"version": 2,
-"path": "C:\\doc\\查詢 #2.sql",
-"uploadDate": "2023-03-14T21:49:42.9688"
-},
-{
-"id": 3,
-"name": "查詢 #2.sql",
-"number": "asfdsaf",
-"version": 3,
-"path": "C:\\doc\\查詢 #2.sql",
-"uploadDate": "2023-03-14T21:49:43.850266"
-},
-{
-"id": 4,
-"name": "查詢 #2.sql",
-"number": "9c985e2e20230314235400568.sql",
-"version": 4,
-"path": "C:\\doc\\9c985e2e20230314235400568.sql",
-"uploadDate": "2023-03-14T23:54:00.568692"
-},
-{
-"id": 5,
-"name": "fb230307222500.pdf",
-"number": "1cbcef5920230314235636277.pdf",
-"version": 0,
-"path": "C:\\doc\\1cbcef5920230314235636277.pdf",
-"uploadDate": "2023-03-14T23:56:36.277534"
-},
-{
-"id": 6,
-"name": "fb230307222500.pdf",
-"number": "690f29b920230314235809416.pdf",
-"version": 1,
-"path": "C:\\doc\\690f29b920230314235809416.pdf",
-"uploadDate": "2023-03-14T23:58:09.416449"
-},
-{
-"id": 7,
-"name": "fb230307222500.pdf",
-"number": "042975f220230315004112583.pdf",
-"version": 2,
-"path": "C:\\doc\\042975f220230315004112583.pdf",
-"uploadDate": "2023-03-15T00:41:12.583438"
-},
-{
-"id": 8,
-"name": "java 中级面试.docx",
-"number": "5a8ade1120230315092758489.docx",
-"version": 0,
-"path": "C:\\doc\\5a8ade1120230315092758489.docx",
-"uploadDate": "2023-03-15T09:27:58.489382"
-}
-]
-}‵‵‵
+```json
+Here goes your json object definition
+```
 
 ### 下載
 
