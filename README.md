@@ -59,7 +59,7 @@ localhost:8080/api/documents/upload
 
 http://localhost:8080/api/documents/
 
-‵‵‵yaml
+‵‵‵yaml{
 [
 {
 "id": 1,
@@ -126,7 +126,7 @@ http://localhost:8080/api/documents/
 "uploadDate": "2023-03-15T09:27:58.489382"
 }
 ]
-‵‵‵
+}‵‵‵
 
 ### 下載
 
