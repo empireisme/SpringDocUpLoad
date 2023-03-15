@@ -36,7 +36,7 @@ Post
 localhost:8080/api/documents/upload
 
 ![image](https://user-images.githubusercontent.com/27859973/225180625-e7b90a46-6729-479e-baa8-527d59e76077.png)
-
+```json
 {
     "document": {
         "id": 8,
@@ -49,8 +49,10 @@ localhost:8080/api/documents/upload
     "message": "上傳檔案成功",
     "status": 200
 }
+```
 
 使用者必須要紀錄number:5a8ade1120230315092758489.docx
+
 有了number便可以下載文件
 
 ### 檢視所有文件
