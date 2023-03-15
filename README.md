@@ -108,14 +108,24 @@ http://localhost:8080/api/documents/
 
 GetMapping
 
-localhost:8080/api/documents/5a8ade1120230315092758489.docx](http://localhost:8080/api/documents/download/5a8ade1120230315092758489.docx
+http://localhost:8080/api/documents/download/0fd5fc7120230315140245984.txt
 
-僅示意
+![image](https://user-images.githubusercontent.com/27859973/225221032-bca98309-87c5-41ed-bc7c-8c51fda3ebd2.png)
+
+```json
 {
-"base64": "UEsDBBQABgAIAAAAIQAyAAAAAMAAwAAQMAAMZEAAAAAA==",
-"message": "該文件存在",
-"status": 200
+    "base64": "5oiR5pivSkFWQeW3peeoi+W4qw==",
+    "message": "該文件存在",
+    "status": 200
 }
+```
+### 解析base64的網站
+
+https://www.convertstring.com/zh_TW/EncodeDecode/Base64Decode
+
+將 5oiR5pivSkFWQeW3peeoi+W4qw== 貼在圖片上的地方
+
+![image](https://user-images.githubusercontent.com/27859973/225221277-cf3aff07-dd17-40ed-b3e3-ffd0437b4879.png)
 
 
 ## 前置作業
